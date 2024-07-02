@@ -1,5 +1,28 @@
+# Ignore Kafka log files
+logs/
 
+# Ignore generated files by IDEs or editors
+.vscode/
+.idea/
 
-.pem
-.cert
-.key
+# Ignore configuration files that may contain sensitive information
+*.config
+
+# Ignore key PEM files and certificates
+*.key
+*.pem
+*.cert
+
+# Ignore Kafka data directories
+data/
+
+# Ignore Docker related files (if applicable)
+Dockerfile
+docker-compose.yml
+
+# Ignore environment-specific configurations
+.env
+
+# Ignore Maven or Gradle build directories (if using)
+/target/
+/build/
